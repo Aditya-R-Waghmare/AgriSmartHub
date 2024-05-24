@@ -1,7 +1,7 @@
 {% extends 'layout.html' %}
 
 {% block body %}
-<!-- banner -->
+
 <section class="banner_w3lspvt" id="home">
 	<div class="csslider infinity" id="slider1">
 	
@@ -12,21 +12,15 @@
 								<h3 class="text-wh">AGRISMARTHUB</h3>
 								<h4 class="text-wh mx-auto my-4"><b>Empowering Farmers with ML.</b></h4>
 								<br>
-								<!-- <h4 class="text-wh mx-auto my-4"><strong> Features</strong></h4>
-								<p class="text-li mx-auto mt-2">
-									1. Crop Disease Prediction <br>
-									2. Fertilizer Recommendation <br>
-									3. Disease Cure Solution<br>
-									4. Crop Recommendation</p> -->
+							
 							</div>
 						</div>
 					</div>
 				</div>
 	</div>
 </section>
-<!-- //banner -->
 
-<!-- core values -->
+
 <section class="core-value py-5">
 	<div class="container py-md-4">
 		<h3 class="heading mb-sm-5 mb-4 text-center"> About Us</h3>
@@ -42,9 +36,7 @@
 		</div>
 	</div>
 </section>
-<!-- //core values -->
 
-<!-- Products & Services -->
 <section class="blog py-5">
 	<div class="container py-md-5">
 		<h3 class="heading mb-sm-5 mb-4 text-center"> Our Services</h3>
@@ -75,7 +67,6 @@
 
 				<img src="{{ url_for('static', filename='images/s4.jpg') }}" class="img-fluid" alt="">
 
-				<!-- <img src="images/s4.jpg" class="img-fliud" alt="" /> -->
 				<a href="{{ url_for('disease_prediction') }}">
 					<div class="blog-info">
 						<h4>Crop Disease</h4>
@@ -86,20 +77,6 @@
 		</div>
 	</div>
 </section>
-<!-- //Products & Services -->
-
-
-<!-- Creating custom grid and hover effect
-<section>
-<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-    <div class="hovereffect">
-        <img class="img-responsive" src="images/s2.jpg" alt="">
-        <div class="overlay">
-           <h2>Hover effect 1</h2>
-           <a class="info" href="#">link here</a>
-        </div>
-    </div>
-</div> -->
 
 </html>
 
